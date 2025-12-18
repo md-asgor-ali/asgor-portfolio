@@ -1,9 +1,10 @@
-import React from "react";
+
 import { projects } from "../data/projects";
 import { Link } from "react-router";
 import { FaInfoCircle, FaGithub } from "react-icons/fa";
 
 export default function ProjectsPage() {
+
   return (
     <section className="py-20 container mx-auto px-6">
       <div className="text-center mb-8">

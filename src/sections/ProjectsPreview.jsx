@@ -4,6 +4,7 @@ import { Link } from "react-router";
 import { FaExternalLinkAlt, FaInfoCircle } from "react-icons/fa";
 
 export default function ProjectsPreview() {
+  
   return (
     <section id="projects" className="py-16 ">
       <div className="container mx-auto px-6">
@@ -17,7 +18,7 @@ export default function ProjectsPreview() {
         </p>
 
         <div className="mt-10 grid md:grid-cols-3 gap-8">
-          {projects.map((p) => (
+          {projects.slice(0,3).map((p) => (
             <div
               key={p.id}
               className="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-cyan-500/30"

@@ -2,6 +2,7 @@ import project1 from '../assets/project1.JPG';
 import project2 from '../assets/project2.JPG';
 import project3 from '../assets/project3.JPG';
 import project4 from '../assets/project4.png';
+import project5 from '../assets/project5.png';
 
 export const projects = [
   {
@@ -38,14 +39,25 @@ export const projects = [
     improvements: 'Real-time notifications, better analytics, and improved UX for mobile.'
   },
   {
-    id: 'auction-gallery',
-    name: 'Auction Gallery',
+    id: 'law-services',
+    name: 'Law.BD',
     image: project4,
-    stack: ['React','React-Toastify','DaisyUi','TailwindCSS'],
-    brief: '  Discover rare collectibles, luxury goods, and vintage treasures in our curated auctions.',
-    live: 'https://b11a7-simple-react-assignment-7.netlify.app',
-    repoClient: 'https://github.com/md-asgor-ali/a7-auction-gallery',
+    stack: ['React','React Router','React-Toastify','DaisyUi','TailwindCSS'],
+    brief: 'We Provide Best Law Services.',
+    live: 'https://regal-biscochitos-504708.netlify.app',
+    repoClient: 'https://github.com/md-asgor-ali/b11a8-law-bd-services',
     challenges: 'React state management and implement react-toastify.',
     improvements: 'Implement the react router and authentication system with firebase.'
+  },
+  {
+    id: 'auction-gallery',
+    name: 'Auction Gallery',
+    image: project5,
+    stack: ['React','React-Toastify','DaisyUi','TailwindCSS'],
+    brief: 'Discover rare collectibles, luxury goods, and vintage treasures in our curated auctions.',
+    live: 'https://b11a7-simple-react-assignment-7.netlify.app',
+    repoClient: 'https://github.com/md-asgor-ali/a7-auction-gallery',
+    challenges: 'React router management and implement lode data using loader.',
+    improvements: 'Implement backend and authentication system with firebase.'
   }
 ];
