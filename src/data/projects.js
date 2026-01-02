@@ -1,11 +1,23 @@
-import project1 from '../assets/project1.JPG';
+import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.JPG';
 import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
 import project5 from '../assets/project5.png';
 
 export const projects = [
+ 
   {
+    id: 'micro-task',
+    name: 'Micro TaskHive',
+    image: project1,
+    stack: ['React', 'Stripe', 'Express', 'MongoDB', 'TailwindCSS'],
+    brief: 'A micro-task marketplace featuring coin payments, role-based boards (Buyer/Worker/Admin).',
+    live: 'https://micro-task-earning-a12.web.app',
+    repoClient: 'https://github.com/md-asgor-ali/a12-micro-task-earning-client',
+    challenges: 'Stripe integration, coin accounting, and approval workflows for submissions.',
+    improvements: 'Real-time notifications, better analytics, and improved UX for mobile.'
+  },
+   {
     id: 'artifact-tracker',
     name: 'Historical Artifacts Tracker',
     image: project3,
@@ -26,17 +38,6 @@ export const projects = [
     repoClient: 'https://github.com/md-asgor-ali/a10-recipe-book-app-client',
     challenges: 'Implementing likes that prevent liking own recipes and syncing likes across pages.',
     improvements: 'Add review moderation, recipe export (PDF), and community features.'
-  },
-  {
-    id: 'micro-task',
-    name: 'Micro TaskHive',
-    image: project1,
-    stack: ['React', 'Stripe', 'Express', 'MongoDB', 'TailwindCSS'],
-    brief: 'A micro-task marketplace featuring coin payments, role-based boards (Buyer/Worker/Admin).',
-    live: 'https://micro-task-earning-a12.web.app',
-    repoClient: 'https://github.com/md-asgor-ali/a12-micro-task-earning-client',
-    challenges: 'Stripe integration, coin accounting, and approval workflows for submissions.',
-    improvements: 'Real-time notifications, better analytics, and improved UX for mobile.'
   },
   {
     id: 'law-services',
