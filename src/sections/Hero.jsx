@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter, FaDownload } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile2.JPG";
 
 export default function Hero() {
   return (
@@ -67,7 +67,7 @@ export default function Hero() {
             {/* Buttons */}
             <div className="mt-6 flex gap-4 items-center">
               <a
-                href="https://drive.google.com/file/d/1GmS96f7cDzfju6XLsW_bRO8jj89GRrlo/view?usp=sharing"
+                href="https://drive.google.com/file/d/1CiPVn6ZF7qrq3wx-OBeeAM5E8AD2ttmo/view?usp=sharing"
                 target="_blank"
                 download
                 className="flex items-center gap-2 bg-cyan-500 px-5 py-2 rounded-md shadow-lg hover:shadow-cyan-500/50 hover:bg-cyan-400 transition"

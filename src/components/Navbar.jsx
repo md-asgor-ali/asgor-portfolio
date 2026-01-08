@@ -41,7 +41,7 @@ export default function Navbar() {
           ))}
 
           <a
-            href="https://drive.google.com/file/d/1GmS96f7cDzfju6XLsW_bRO8jj89GRrlo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CiPVn6ZF7qrq3wx-OBeeAM5E8AD2ttmo/view?usp=sharing"
             target="_blank"
             download
             className="ml-4 inline-flex items-center gap-2 bg-cyan-500 px-3 py-1 rounded-md shadow-md hover:bg-cyan-400"
