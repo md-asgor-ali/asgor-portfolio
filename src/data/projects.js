@@ -3,6 +3,7 @@ import project2 from '../assets/project2.JPG';
 import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
 import project5 from '../assets/project5.png';
+import project6 from '../assets/project6.png';
 
 export const projects = [
  
@@ -38,6 +39,17 @@ export const projects = [
     repoClient: 'https://github.com/md-asgor-ali/a10-recipe-book-app-client',
     challenges: 'Implementing likes that prevent liking own recipes and syncing likes across pages.',
     improvements: 'Add review moderation, recipe export (PDF), and community features.'
+  },
+  {
+    id: 'subscription-box',
+    name: 'Subscription Box',
+    image: project6,
+    stack: ['React','React Router','Firebase Auth','React-Toastify','DaisyUi','TailwindCSS'],
+    brief: 'A symbol of surprise and curiosity – your favorite subscription box delivered to your doorstep every month.',
+    live: 'https://assignment-09-category-lily.web.app',
+    repoClient: 'https://github.com/md-asgor-ali/b11a9-subscription-box',
+    challenges: 'React state management and implement react-router and firebase auth.',
+    improvements: 'implement the backend with nodejs express js and mongodb'
   },
   {
     id: 'law-services',
